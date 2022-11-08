@@ -4,8 +4,8 @@
   flex-direction: column;
   height: auto;
   overflow-x: hidden;
-  justify-container:center;
-  align-items: center:
+  justify-content:center;
+  align-items: center;
 }
 
 body {
@@ -269,7 +269,7 @@ font-family: spotify-circular, Helvetica, Arial, sans-serif;
   background-color: white;
   text-transform: uppercase;
   border-radius: 30px;
-  width: 95%;
+  width: ;
   font-family: spotify-circular, Helvetica, Arial, sans-serif;
   letter-spacing: 2px;
   text-align: center;
@@ -277,7 +277,6 @@ font-family: spotify-circular, Helvetica, Arial, sans-serif;
   margin-bottom: 0px;
   border: 1px solid;
   font-weight: bold;
-  position: absolute;
   left:10px;
 
 }
