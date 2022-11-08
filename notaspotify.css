@@ -2,22 +2,24 @@
 .whole-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: auto;
   overflow-x: hidden;
+  justify-container:center;
+  align-items: center:
 }
 
 body {
-  margin: 0;
+  margin: 10px;
 }
 
 .majour-part {
   max-width: 500px;
   display: flex;
   flex-direction: column;
-  position: relative;
   left: 700px;
   width: 470px;
   top: 20px;
+
 }
 
 .top-container {
