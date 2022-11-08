@@ -1,0 +1,300 @@
+/*something wrong here*/
+.whole-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+.majour-part {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 700px;
+  width: 470px;
+  top: 20px;
+}
+
+.top-container {
+
+}
+
+.facebook {
+  color: rgb(248, 248, 248);
+  background-color: rgb(59, 89, 152);
+  border-radius: 30px;
+  width: 95%;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  font-weight: bold;
+  position: relative;
+  left: 10px;
+
+}
+
+.facebookpara {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.Apple {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+  width: 95%;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 13px;
+  border: 1px solid;
+  font-weight: bold;
+  position: relative;
+  left:10px;
+}
+
+.applepara {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.Google {
+  color: rgba(0, 0, 0, 0.9);
+  background-color: white;
+  border-radius: 30px;
+  width: 95%;
+  letter-spacing: 2px;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-bottom: 13px;
+  border: 1px solid;
+  font-weight: bold;
+  position: relative;
+  left: 10px;
+}
+
+.phonenumber {
+  color: rgba(0, 0, 0, 0.9);
+  background-color: white;
+  text-transform: uppercase;
+  border-radius: 30px;
+  width: 95%;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 0px;
+  border: 1px solid;
+  font-weight: bold;
+  position: relative;
+  left: 10px;
+}
+
+.third-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.left {
+  margin: 12px 0px 20px;
+  flex: 1 1 0%;
+  border-top: 1px solid rgb(217, 218, 220);
+}
+
+.right {
+  margin: 12px 0px 20px;
+  flex: 1 1 0%;
+  border-top: 1px solid rgb(217, 218, 220);
+}
+
+.OR {
+  flex: 0.3 1 0%;
+  align-self: center;
+  text-align: center;
+  line-height: 1px;
+  font-weight: 700;
+  font-size: 12px;
+  background: rgb(255, 255, 255);
+  
+  font-family: font-family: spotify-circular, Helvetica, Arial, sans-serif ;
+}
+
+.tophr {
+
+}
+
+.top-container {
+  display: block;
+}
+
+#Email {
+  color: var(--text-base, #000000);
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: normal;
+  font-weight: bolder;
+}
+
+#information {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: none;
+  letter-spacing: normal;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 14px;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+#password {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: none;
+  letter-spacing: normal;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 14px;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#Label_password {
+  color: var(--text-base, #000000);
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: normal;
+  font-weight: bolder;
+}
+
+#reset-password-link {
+  box-sizing: border-box;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  color: inherit;
+  align-items: center;
+}
+
+.forgot_password {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.checkbox {
+  padding-bottom: 16px;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.insidecheckbox {
+  box-sizing: border-box;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  align-items: center;
+  display: flex;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  position: relative;
+  min-height: 32px;
+  margin-top: 25px;
+}
+
+input[type=checkbox] {
+  accent-color: green;
+}
+
+#login-remember:hover {
+  accent-color: gray;
+}
+
+.login-button-container {
+  position: relative;
+  background-color: var(--background-base, #1ed760);
+  color: var(--text-base, #000000);
+  border-radius: 500px;
+  font-size: inherit;
+  padding: 14px 32px;
+  height: 20px;
+  width: 75px;
+}
+
+#login-para {
+  letter-spacing: 2px;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: bolder;
+  position: relative;
+  bottom: 3px;
+}
+
+.login-button2 {
+  background-color: var(--background-base, #1ed760);
+  border: 0;
+  position: absolute;
+  top: -2px;
+  left: 40px;
+}
+
+.bottom-hr{
+
+margin: 25px 0px 20px;
+flex: 1 1 0%;
+border-top: 1px solid rgb(217, 218, 220);
+}
+.account{
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+font-family: spotify-circular, Helvetica, Arial, sans-serif;
+
+}
+#signuplink{
+  color: rgba(0, 0, 0, 0.9);
+  background-color: white;
+  text-transform: uppercase;
+  border-radius: 30px;
+  width: 95%;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 0px;
+  border: 1px solid;
+  font-weight: bold;
+  position: absolute;
+  left:10px;
+
+}
+.signup-para{
+letter-spacing: 2px;
+
+}
+.login-button2{
+  background-color: var(--background-base, #1ed760);
+  border: 0;
+  position: absolute;
+  top: 1px;
+  left: 40px;
+  bottom: 49px;
+
+}
+#reset-password-link:link{
+  text-decoration: none;
+}
+#reset-password-link:hover{
+  text-decoration: underline;
+}
